@@ -1,0 +1,8 @@
+print("Please tell the...")
+fn=raw_input("Name your parents gave you (just the first one)")
+ln=raw_input("Name your family bears (the one registered as your last name)")
+mg=input("Best mathematics grade you have received in primary school (a number please)")
+eg=input("Last grade you received for an English test in 4th year of high school (in numeric form)")
+print("Thank you.")
+print('If I understood correctly your name is %s %s and your grades averaging %s portray a quite smart kid.' % (fn,ln,mg/2+eg/2))
+print("It was great getting to know you better, thanks for your information and time. Have a great day!")
